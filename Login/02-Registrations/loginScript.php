@@ -17,6 +17,8 @@ if(mysqli_num_rows($result) == 1) {
     // Will send them back to a URL after 5 seconds:
     header('refresh: 5; url = ../index.php');
 } else {
+    $_SESSION['adminCheck'] = 0;
+    header('Locaion:../userHome.php');
     echo("You are not logged in");
 }
 
