@@ -1,6 +1,6 @@
 
 <?php
-echo("YOU ARE NOT AN ADMIN, YOU ARE BEING REDIRECTED")
+echo("no oure no m admin")
 sleep(5);
 header("Location: userHome.php");
 ?>
